@@ -9,3 +9,15 @@ pytest==6.1.1
 six==1.15.0
 toml==0.10.1
 z3-solver==4.8.9.0
+
+python-sat==0.1.7.dev10
+# attrs==19.3.0
+bidict==0.18.4
+funcy==1.16
+parsimonious==0.8.1
+py-aiger==4.3.0
+py-aiger-cnf==3.0.0
+pypblib==0.0.4
+pyrsistent==0.15.7
+toposort==1.6
+

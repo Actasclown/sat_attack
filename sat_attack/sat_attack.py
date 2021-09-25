@@ -98,7 +98,8 @@ class SatAttack:
         return s.check() == z3.unsat
 
     def _key_string(self, key):
-        ordered_names = sorted(key.keys(), key=lambda name: int(name[8:]))
+        ordered_names = sorted(key.keys())
+        # ordered_names = sorted(key.keys(), key=lambda name: int(name[8:]))
         key_string = ""
 
         for name in ordered_names:
